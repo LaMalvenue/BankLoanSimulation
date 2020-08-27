@@ -1,4 +1,4 @@
-# MortgageSimulation
+# Bank Loan Simulation
 A short project to learn J2EE.
 
 This is an exercice from Mohamed Youssfi's courses. You can reach his last playlist on J2EE here : https://www.youtube.com/playlist?list=PLxr551TUsmAqwqHW3QNDPJGVnCwSpK6Z8

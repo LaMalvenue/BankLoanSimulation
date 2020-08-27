@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Crédit immobilier</title>
+    <title>Crédit bancaire</title>
     <meta charset="UTF-8">
   </head>
   <body>
