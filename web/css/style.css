@@ -1,3 +1,120 @@
-form {
+header {
+    background-color: whitesmoke;
+    color: #494949;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 125px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid grey;
+    z-index: 5;
+}
 
+header .logo {
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    padding: 12px;
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: white;
+    border-right: 2px solid grey;
+    width: 100px;
+    height: 125px;
+}
+
+.highlight {
+    color: #dd6b00;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header h6 {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+body {
+    margin-top: 150px;
+    background-color: white;
+    color: #494949;
+}
+
+.left-side {
+    height: calc(100vh - 125px);
+    margin-top: -25px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 1.5rem;
+    background-color: #38ada9;
+    color: white;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-side p {
+    margin: 40px 0;
+}
+.card, input {
+    text-align: center;
+}
+.btn-primary {
+    background-color: #38ada9;
+    border-color: #38ada9;
+}
+
+.btn-primary:hover {
+    background-color: #dd6b00;
+    border-color: #dd6b00;
+}
+
+@media all and (max-width: 420px) {
+    .header {
+        display: none;
+    }
+    header .logo {
+        border-width: 0;
+        left: calc(50% - 50px);
+    }
+    .left-side {
+        height: 250px;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}
+@media all and (max-width: 767px) {
+    .header {
+        display: none;
+    }
+    header .logo {
+        border-width: 0;
+        left: calc(50% - 50px);
+    }
+    .left-side {
+        height: 300px;
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}
+@media all and (max-width: 980px) {
+    .left-side {
+        font-size: 1.3rem;
+        margin-bottom: 35px;
+    }
+    .card {
+        margin-bottom: 35px;
+    }
 }
